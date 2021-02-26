@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.blogPost {
+  width: 75%;
+  float: left;
+  position: relative;
+}
+.otherBlog {
+  width: 25%;
+  float: right;
+}
+h1 {
+  color: rgb(155, 67, 67);
+}
+h2 {
+  color: rgb(180, 82, 82);
+}
+.blogMainText {
+  text-align: justify;
+  padding-right: 20px;
+}
+.blogDate {
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+.gatoSalvaje {
+  height: 150px;
+  width: auto;
+}
+.rutura:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.other {
+  margin-top: 20px;
+}
+.authorBox img {
+  transform: rotate(-90deg);
+  border-radius: 50%;
+  float: left;
+  margin: 10px 10px 0px -10px;
+  height: 80px;
+  width: auto;
+}
+.authorText {
+  padding-top: 45px;
+  padding-left: 20px;
+}
+a {
+  margin-right: 20px;
+}
