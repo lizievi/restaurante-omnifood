@@ -215,6 +215,17 @@ input[type="submit"]:hover {
   padding: 16px 0;
 }
 
+.mobile-nav-icon {
+  float: right;
+  margin-top: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.mobile-nav-icon i {
+  color: #fff;
+  font-size: 200%;
+}
 .sticky .logo {
   display: none;
 }
@@ -562,10 +573,12 @@ footer p {
 .js--wp-2,
 .js--wp-3 {
   opacity: 0;
+  -webkit-animation-duration: 1s;
   animation-duration: 1s;
 }
 
 .js--wp-4 {
+  -webkit-animation-duration: 1s;
   animation-duration: 1s;
 }
 .js--wp-1 .animated,
